@@ -1,6 +1,6 @@
 <p align="center">Crypto API Task</p>
 
-##Requirements
+## Requirements
 - PHP 7.4 or Above
 - Mysql 5.5 or Above
 

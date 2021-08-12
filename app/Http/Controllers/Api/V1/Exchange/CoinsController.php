@@ -20,7 +20,7 @@ class CoinsController
                 'name' => $coin['name'],
                 'code' => $coin['code']
             ];
-        }, $coinsService->list($request->input('sort')));
+        }, $coinsService->list($request->input('sort', 'ASC')));
 
         return ResponseService::data($coins);
     }

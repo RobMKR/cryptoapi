@@ -40,3 +40,5 @@ Do not forget to put `Accept: application/json` in request headers, to tell our 
 ## PS
 Thanks and regards, coded with love by Rob :)
 You can find a postman collection right here in the project source files: [Collection](https://github.com/RobMKR/cryptoapi/edit/master/Crypto.postman_collection.json)
+
+The api is hosted on a VPS: [API](http://69.55.59.179)

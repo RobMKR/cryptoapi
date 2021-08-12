@@ -28,7 +28,10 @@ Route::group(['prefix' => 'auth'], function (\Illuminate\Routing\Router $router)
 });
 
 /** Authenticated routes group */
-Route::group(['prefix' => 'exchange'], function (\Illuminate\Routing\Router $router) {
+Route::group([
+    'prefix' => 'exchange',
+    'middleware' => 'auth:api'
+], function (\Illuminate\Routing\Router $router) {
     /** Get coins from 3rd party service or cache */
     $router->get('coins', 'Exchange\CoinsController');
 

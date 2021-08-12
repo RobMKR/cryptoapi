@@ -13,7 +13,7 @@
 - Update .env database section and set you credentials
 - Update .env cache section and put redis/memcached credentials if you have, if no it will use you hard drive as cache storage.
 - Run `php artisan key:generate` to generate new key for app.
-- Run `php artisan jwt:generate` to generate new key for jwt auth.
+- Run `php artisan jwt:secret` to generate new key for jwt auth.
 - Run `php artisan migrate` to run a migrations
 - Run `sudo -u [Your nginx or apache user, commonly www-data] php artisan serve` Most of cases your user will not have access to /tmp 
 directory which is required for hosting laravel as itself without use of apache or nginx

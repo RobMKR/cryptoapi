@@ -1,4 +1,4 @@
-<p align="center">Crypto API Task</p>
+<p align="center">Crypto API</p>
 
 ## Requirements
 - PHP 7.4 or Above

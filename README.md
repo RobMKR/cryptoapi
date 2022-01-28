@@ -1,6 +1,6 @@
 <p align="center">Crypto API</p>
 
-Tag V1.0.1
+Tag V1.0.2
 
 ## Requirements
 - PHP 7.4 or Above

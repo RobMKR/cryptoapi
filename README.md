@@ -1,5 +1,7 @@
 <p align="center">Crypto API</p>
 
+Tag V1.0.0
+
 ## Requirements
 - PHP 7.4 or Above
 - Mysql 5.5 or Above
